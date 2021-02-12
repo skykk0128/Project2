@@ -1,0 +1,19 @@
+.app {
+  margin-top: 50px;
+}
+
+.app__container {
+  width: 900px;
+  height: 600px;
+  background-color: white;
+  border-radius: 25px;
+  box-shadow: 0 5px 5px 0, grey;
+}
+
+.app__container__top {
+
+}
+
+.app__container__bottom {
+    
+}

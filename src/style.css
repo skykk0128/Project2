@@ -1,0 +1,7 @@
+body {
+  margin: auto;
+  background-image: url("./assets/images/landscape.jpg");
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
