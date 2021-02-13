@@ -1,6 +1,9 @@
 body {
   margin: auto;
   background-image: url("./assets/images/landscape.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;

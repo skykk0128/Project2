@@ -1,5 +1,5 @@
 .app {
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 .app__container {
@@ -7,13 +7,121 @@
   height: 600px;
   background-color: white;
   border-radius: 25px;
-  box-shadow: 0 5px 5px 0, grey;
+  box-shadow: 0 5px 5px 0 rgba(211, 211, 211, 0.5),
+    0 5px 5px 0 rgba(211, 211, 211, 0.5);
 }
 
 .app__container__top {
+  padding: 50px;
+  background-image: url("./assets/images/sky-gold.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
   color: white;
 }
 
+.temperaturebanner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.temperaturebanner__temperature {
+  display: flex;
+  flex-direction: column;
+}
+
+.degree {
+  display: flex;
+}
+
+.degree__figure {
+  font-size: 80px;
+  margin-right: 15px;
+}
+
+.degree__symbol {
+  width: 15px;
+  height: 15px;
+  background-color: transparent;
+  border: solid 5px;
+  border-radius: 50%;
+}
+
+.degree__measure {
+  font-size: 80px;
+}
+
+/* .degree__seperator {
+  font-size: 80px;
+} */
+
+.weather {
+  align-self: center;
+  font-size: 30px;
+}
+
+.temperaturebanner__city {
+  font-size: 50px;
+}
+
+.otherfeatures {
+  display: flex;
+  margin-top: 20px;
+}
+
+.feature__humidity {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-right: solid 2px white;
+}
+
+.feature__wind {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.feature__name {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.feature__figure {
+  font-size: 20px;
+}
+
 .app__container__bottom {
-  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  border: solid 2px blue;
+}
+
+.othercities__singlelocation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.othercities__degree {
+  display: flex;
+}
+
+.citydegree__figure {
+  margin-right: 5px;
+}
+
+.citydegree__symbol {
+  width: 4px;
+  height: 4px;
+  background-color: transparent;
+  border: solid 2px black;
+  border-radius: 50%;
+}
+
+img {
+  width: 20px;
+  height: 20px;
 }
