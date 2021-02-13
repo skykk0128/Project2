@@ -14,12 +14,23 @@
 .app__container__top {
   padding: 50px;
   background-image: url("./assets/images/sky-gold.jpg");
-  background-position: center;
+  /* background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
+  background-repeat: repeat-x;
+  animation: animatedBackground 30s linear infinite alternate;
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
-  color: white;
+  color: lightskyblue;
+}
+
+@keyframes animatedBackground {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 100% 0;
+  }
 }
 
 .temperaturebanner {
@@ -75,7 +86,7 @@
   display: flex;
   flex-direction: column;
   padding: 20px;
-  border-right: solid 2px white;
+  border-right: solid 2px lightskyblue;
 }
 
 .feature__wind {
@@ -97,12 +108,21 @@
   display: flex;
   justify-content: space-between;
   padding: 50px;
-  border: solid 2px blue;
+}
+
+.othercities {
+  width: 200px;
+  padding-right: 20px;
+  border-right: solid 2px grey;
 }
 
 .othercities__singlelocation {
   display: flex;
   justify-content: space-between;
+}
+
+.othercities__city {
+  margin-right: 10px;
 }
 
 .othercities__degree {
@@ -122,6 +142,6 @@
 }
 
 img {
-  width: 20px;
-  height: 20px;
+  width: 25px;
+  height: 25px;
 }

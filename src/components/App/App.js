@@ -1,5 +1,5 @@
 import React from "react";
-import cloudy from "./assets/svgs/cloudy.svg";
+import cloudy from "./assets/images/cloudy.png";
 import "./App.css";
 
 const App = () => (
@@ -44,7 +44,29 @@ const App = () => (
               <div className="citydegree__measure">C</div>
             </div>
             <div className="othercities__weather">
-              <img src={cloudy} alt="cloudy"></img>
+              <img src={cloudy} alt="cloudy" />
+            </div>
+          </div>
+          <div className="othercities__singlelocation">
+            <div className="othercities__city">Brisbane</div>
+            <div className="othercities__degree">
+              <div className="citydegree__figure">28</div>
+              <div className="citydegree__symbol"></div>
+              <div className="citydegree__measure">C</div>
+            </div>
+            <div className="othercities__weather">
+              <img src={cloudy} alt="cloudy" />
+            </div>
+          </div>
+          <div className="othercities__singlelocation">
+            <div className="othercities__city">Canberra</div>
+            <div className="othercities__degree">
+              <div className="citydegree__figure">20</div>
+              <div className="citydegree__symbol"></div>
+              <div className="citydegree__measure">C</div>
+            </div>
+            <div className="othercities__weather">
+              <img src={cloudy} alt="cloudy" />
             </div>
           </div>
         </div>
