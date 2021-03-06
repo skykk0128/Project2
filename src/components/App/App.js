@@ -72,6 +72,71 @@ const App = () => (
         </div>
         <div className="forecast">
           <h2>Forecast</h2>
+          <div className="forecast__banner">
+            <div className="forecast__banner__day">
+              <h3>MON</h3>
+              <div><img src={cloudy} alt="cloudy" /></div>
+              <div className="othercities__degree">
+                <div className="citydegree__figure">20</div>
+                <div className="citydegree__symbol"></div>
+                <div className="citydegree__measure">C</div>
+              </div>
+            </div>
+            <div className="forecast__banner__day">
+              <h3>MON</h3>
+              <div><img src={cloudy} alt="cloudy" /></div>
+              <div className="othercities__degree">
+                <div className="citydegree__figure">20</div>
+                <div className="citydegree__symbol"></div>
+                <div className="citydegree__measure">C</div>
+              </div>
+            </div>
+            <div className="forecast__banner__day">
+              <h3>MON</h3>
+              <div><img src={cloudy} alt="cloudy" /></div>
+              <div className="othercities__degree">
+                <div className="citydegree__figure">20</div>
+                <div className="citydegree__symbol"></div>
+                <div className="citydegree__measure">C</div>
+              </div>
+            </div>
+            <div className="forecast__banner__day">
+              <h3>MON</h3>
+              <div><img src={cloudy} alt="cloudy" /></div>
+              <div className="othercities__degree">
+                <div className="citydegree__figure">20</div>
+                <div className="citydegree__symbol"></div>
+                <div className="citydegree__measure">C</div>
+              </div>
+            </div>
+            <div className="forecast__banner__day">
+              <h3>MON</h3>
+              <div><img src={cloudy} alt="cloudy" /></div>
+              <div className="othercities__degree">
+                <div className="citydegree__figure">20</div>
+                <div className="citydegree__symbol"></div>
+                <div className="citydegree__measure">C</div>
+              </div>
+            </div>
+            <div className="forecast__banner__day">
+              <h3>MON</h3>
+              <div><img src={cloudy} alt="cloudy" /></div>
+              <div className="othercities__degree">
+                <div className="citydegree__figure">20</div>
+                <div className="citydegree__symbol"></div>
+                <div className="citydegree__measure">C</div>
+              </div>
+            </div>
+            <div className="forecast__banner__day">
+              <h3>MON</h3>
+              <div><img src={cloudy} alt="cloudy" /></div>
+              <div className="othercities__degree">
+                <div className="citydegree__figure">20</div>
+                <div className="citydegree__symbol"></div>
+                <div className="citydegree__measure">C</div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

@@ -145,3 +145,13 @@ img {
   width: 25px;
   height: 25px;
 }
+
+.forecast {
+  width: 100%;
+  margin-left: 20px;
+}
+
+.forecast__banner {
+  display: flex;
+  justify-content: space-between;
+}
